@@ -1,0 +1,28 @@
+.content-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.center-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.rounded {
+    border-radius: 22px;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
+    box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07);
+}
+
+.round-img {
+    clip-path: circle();
+}
+
+.line-break {
+    width: 100%;
+}
