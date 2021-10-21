@@ -1,3 +1,15 @@
+body {
+    background-color: #2B2A33;
+}
+
+h1 {
+    color: #E8E6E3;
+}
+
+p {
+    color: #B5B4B9;
+}
+
 .content-sidebar {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -26,6 +39,14 @@
 
 .line-break {
     width: 100%;
+}
+
+.link-no-style a {
+    text-decoration: none;
+}
+
+video, img {
+    filter: drop-shadow(0 0 0.75rem #1C1B22);
 }
 
 @media only screen 
