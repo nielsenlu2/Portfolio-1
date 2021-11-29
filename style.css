@@ -10,12 +10,20 @@ body {
     margin: auto;
 }
 
+h1, p, li, a {
+    text-shadow: 2px 2px 1px rgb(0,0,0,0.8);
+}
+
 h1, b {
     color: #eceff4;
 }
 
 p {
     color: #d8dee9;
+}
+
+li {
+    color: #88c0d0;
 }
 
 a {
